@@ -23,9 +23,9 @@ public class ScenarioSteps {
         new BaseSteps().transitionPage(value);
     }
 
-    @When("^выбран раздел Электроника$")
-    public void electronicsClick() {
-        marketPageSteps.electronicsClick();
+    @When("^выбран раздел на главной странице \"(.+)\"$")
+    public void electronicsClick(String item) {
+        marketPageSteps.electronicsClick(item);
     }
 
     @When("^выбран раздел \"(.+)\"$")

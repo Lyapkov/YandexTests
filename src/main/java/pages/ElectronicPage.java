@@ -8,7 +8,7 @@ import steps.BaseSteps;
 
 public class ElectronicPage extends BasePage {
 
-    @FindBy(xpath = "/html/body/div[2]/div[5]/div/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/div/div/div/div")
+    @FindBy(xpath = "//div[@data-tid=\"cb168a42\"]")
     WebElement catalog;
 
     public ElectronicPage() {

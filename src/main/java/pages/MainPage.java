@@ -7,7 +7,7 @@ import steps.BaseSteps;
 
 public class MainPage extends BasePage {
 
-    @FindBy(xpath = "/html/body/div[1]/div[2]/div[3]/div/div[2]/nav/div/ul/li[2]/a")
+    @FindBy(xpath = "//a[@data-id=\"market\"]")
     WebElement market;
 
     public MainPage() {

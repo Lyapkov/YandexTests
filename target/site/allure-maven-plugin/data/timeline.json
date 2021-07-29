@@ -2,26 +2,26 @@
   "hosts" : [ {
     "title" : "DESKTOP-AIF8T4O",
     "threads" : [ {
-      "title" : "14492@DESKTOP-AIF8T4O.main(1)",
+      "title" : "9080@DESKTOP-AIF8T4O.main(1)",
       "testCases" : [ {
-        "uid" : "d7a85480b6cbcd12",
-        "name" : "Поиск телевизоров",
-        "title" : "Поиск телевизоров",
+        "uid" : "1c98e5d5023d3c79",
+        "name" : "Поиск наушников",
+        "title" : "Поиск наушников",
         "time" : {
-          "start" : 1627557786804,
-          "stop" : 1627557851963,
-          "duration" : 65159
+          "start" : 1627560215500,
+          "stop" : 1627560273153,
+          "duration" : 57653
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "6d312abeba7ea2f4",
-        "name" : "Поиск наушников",
-        "title" : "Поиск наушников",
+        "uid" : "2701ec6a74d9b22a",
+        "name" : "Поиск телевизоров",
+        "title" : "Поиск телевизоров",
         "time" : {
-          "start" : 1627557852424,
-          "stop" : 1627557893975,
-          "duration" : 41551
+          "start" : 1627560157397,
+          "stop" : 1627560215279,
+          "duration" : 57882
         },
         "severity" : "NORMAL",
         "status" : "PASSED"

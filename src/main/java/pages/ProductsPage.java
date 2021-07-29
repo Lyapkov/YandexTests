@@ -11,10 +11,10 @@ import java.util.List;
 
 public class ProductsPage extends BasePage {
 
-    @FindBy(xpath = "/html/body/div[2]/div[3]/div[3]/div[5]/div/div[2]/div/div/div")
+    @FindBy(xpath = "//div[@class=\"_2cmzC cia-vs\"]")
     WebElement board;
 
-    @FindBy(xpath = "/html/body/div[2]/div[3]/div[3]/div[5]/div/div[2]/div/div/div/div/div/div/article[1]/div[4]/div[1]/h3/a/span")
+    @FindBy(xpath = "//div[@class=\"_2cmzC cia-vs\"]//article[1]//span[@data-tid=\"ce80a508\"]")
     WebElement firstElement;
 
     @FindBy(xpath = "//*[@id=\"header-search\"]")

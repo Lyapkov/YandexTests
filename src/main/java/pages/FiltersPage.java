@@ -8,16 +8,16 @@ import steps.BaseSteps;
 
 public class FiltersPage extends BasePage {
 
-    @FindBy(xpath = "/html/body/div[2]/section/div[2]/div/div/div[2]/div[1]/div[2]/div/div/div/div[1]/input")
+    @FindBy(xpath = "//div[@class=\"_1SfMJ l1f-a\"]/div[1]/input")
     WebElement minPrice;
 
-    @FindBy(xpath = "/html/body/div[2]/section/div[2]/div/div/div[2]/div[1]/div[7]/div")
+    @FindBy(xpath = "//div[@data-filter-id=\"7893318\"]/div[@class=\"_3918R _2GwyK\"]")
     WebElement manufacturer;
 
-    @FindBy(xpath = "/html/body/div[2]/section/div[2]/div/div/div[2]/div[1]/div[7]/div/div/div/button")
+    @FindBy(xpath = "//button[@class=\"zsSJk dOdmr _1QJa9\"]")
     WebElement showAllButton;
 
-    @FindBy(xpath = "/html/body/div[2]/section/div[2]/div/div/div[3]/div/div/a[2]")
+    @FindBy(xpath = "//a[@class=\"_2qvOO _3qN-v _1Rc6L\"]")
     WebElement buttonShow;
 
     public FiltersPage() {
