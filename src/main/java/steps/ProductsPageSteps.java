@@ -1,26 +1,24 @@
 package steps;
 
+import org.openqa.selenium.WebElement;
 import pages.ProductsPage;
 import ru.yandex.qatools.allure.annotations.Step;
+
+import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
 public class ProductsPageSteps {
 
-    @Step("установлена минимальная цена {0}")
-    public void setMinPrice(String value) {
-        new ProductsPage().setMinPrice(value);
-    }
-
-    @Step("выбран производитель {0}")
-    public void selectManufactureItem(String value) {
-        new ProductsPage().selectManufactureItem(value);
+    @Step("выполнен переход на старницу Все фильтры")
+    public void allFiltersClick() {
+        new ProductsPage().allFiltersClick();
     }
 
     @Step("количество элементов на доске {0}")
     public void checkCountItemsInPage(String count) {
-        String actual = new ProductsPage().countItemsInPage();
-        assertEquals(actual, count);
+        String actual = String.valueOf(new ProductsPage().countItemsInPage().size());
+        assertEquals(count, actual);
     }
 
     @Step("получаем название первого товара")

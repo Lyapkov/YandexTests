@@ -10,7 +10,8 @@ public class ScenarioSteps {
     MainPageSteps mainPageSteps = new MainPageSteps();
     MarketPageSteps marketPageSteps = new MarketPageSteps();
     ElectronicsPageSteps electronicsPageSteps = new ElectronicsPageSteps();
-    ProductsPageSteps tvsPageSteps = new ProductsPageSteps();
+    ProductsPageSteps productsPageSteps = new ProductsPageSteps();
+    FiltersPageSteps filtersPageSteps = new FiltersPageSteps();
 
     @When("^нажата кнопка Маркет$")
     public void marketClick() {
@@ -32,25 +33,40 @@ public class ScenarioSteps {
         electronicsPageSteps.selectCatalogItem(item);
     }
 
+    @When("^нажата кнопка Все фильтры$")
+    public void allFiltersClick() {
+        productsPageSteps.allFiltersClick();
+    }
+
     @When("^указана минимальная цена \"(.+)\"$")
     public void setMinPrice(String value) {
-        tvsPageSteps.setMinPrice(value);
+        filtersPageSteps.setMinPrice(value);
     }
 
     @When("^выбран производитель \"(.+)\"$")
     public void selectManufactureItem(String value) {
-        tvsPageSteps.selectManufactureItem(value);
+        filtersPageSteps.selectManufactureItem(value);
+    }
+
+    @When("^нажата кнопка Показать еще в разделе Производитель$")
+    public void showAllButtonClick() {
+        filtersPageSteps.showAllButtonClick();
+    }
+
+    @When("^нажата кнопка Показать предложения$")
+    public void buttonShowClick() {
+        filtersPageSteps.buttonShowClick();
     }
 
     @Then("^количество элементов на доске \"(.+)\"$")
     public void checkCountItemsInPage(String value) {
-        tvsPageSteps.selectManufactureItem(value);
+        productsPageSteps.checkCountItemsInPage(value);
     }
 
     @Then("^первый элемент совпадает с поиском$")
     public void searchCheck() {
-        String text = tvsPageSteps.getTextFirstElement();
-        tvsPageSteps.fillSearch(text);
-        assertEquals(tvsPageSteps.getTextFirstElement(), text);
+        String text = productsPageSteps.getTextFirstElement();
+        productsPageSteps.fillSearch(text);
+        assertEquals(productsPageSteps.getTextFirstElement(), text);
     }
 }

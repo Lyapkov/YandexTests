@@ -20,4 +20,8 @@ public class BasePage {
         BaseSteps.getWait().until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }
+
+    public void scroll(WebElement element) {
+        BaseSteps.getJse().executeScript("arguments[0].scrollIntoView(true);", element);
+    }
 }

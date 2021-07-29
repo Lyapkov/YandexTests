@@ -17,6 +17,6 @@ public class ElectronicPage extends BasePage {
 
 
     public void selectCatalogItem(String item) {
-        catalog.findElement(By.xpath(".//div[contains(@class,'_3VMnEHDoVX')].//a[contains(text(),'"+item+"')]")).click();
+        catalog.findElement(By.xpath(".//div[contains(@class,'_1YdrM')]//a[contains(text(),'"+item+"')]")).click();
     }
 }

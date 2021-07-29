@@ -1,0 +1,446 @@
+{
+  "uid" : "6d312abeba7ea2f4",
+  "name" : "Поиск наушников",
+  "title" : "Поиск наушников",
+  "time" : {
+    "start" : 1627557852424,
+    "stop" : 1627557893975,
+    "duration" : 41551
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 26
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "4bc4dc319c9a8cc9",
+    "name" : "Поиск товаров",
+    "title" : "Поиск товаров"
+  },
+  "steps" : [ {
+    "name" : "Когда нажата кнопка Маркет",
+    "title" : "Когда нажата кнопка Маркет",
+    "time" : {
+      "start" : 1627557859667,
+      "stop" : 1627557859794,
+      "duration" : 127
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "marketClick",
+      "title" : "Нажата кнопка Маркет",
+      "time" : {
+        "start" : 1627557859668,
+        "stop" : 1627557859794,
+        "duration" : 126
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И переход на вкладку \"2\"",
+    "title" : "И переход на вкладку \"2\"",
+    "time" : {
+      "start" : 1627557859795,
+      "stop" : 1627557870462,
+      "duration" : 10667
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "transitionPage[2]",
+      "title" : "Переход на вкладку 2",
+      "time" : {
+        "start" : 1627557859795,
+        "stop" : 1627557870461,
+        "duration" : 10666
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран раздел Электроника",
+    "title" : "И выбран раздел Электроника",
+    "time" : {
+      "start" : 1627557870463,
+      "stop" : 1627557874511,
+      "duration" : 4048
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "electronicsClick",
+      "title" : "выбран раздел Электроника",
+      "time" : {
+        "start" : 1627557870464,
+        "stop" : 1627557874510,
+        "duration" : 4046
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран раздел \"Наушники, Bluetooth-гарнитуры, аксессуары\"",
+    "title" : "И выбран раздел \"Наушники, Bluetooth-гарнитуры, аксессуары\"",
+    "time" : {
+      "start" : 1627557874511,
+      "stop" : 1627557877488,
+      "duration" : 2977
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectCatalogItem[Наушники, Bluetooth-гарнитуры, аксессуары]",
+      "title" : "выбран раздел Наушники, Bluetooth-гарнитуры, аксессуары",
+      "time" : {
+        "start" : 1627557874512,
+        "stop" : 1627557877488,
+        "duration" : 2976
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран раздел \"Наушники и Bluetooth-гарнитуры\"",
+    "title" : "И выбран раздел \"Наушники и Bluetooth-гарнитуры\"",
+    "time" : {
+      "start" : 1627557877488,
+      "stop" : 1627557884046,
+      "duration" : 6558
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectCatalogItem[Наушники и Bluetooth-гарнитуры]",
+      "title" : "выбран раздел Наушники и Bluetooth-гарнитуры",
+      "time" : {
+        "start" : 1627557877489,
+        "stop" : 1627557884046,
+        "duration" : 6557
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И нажата кнопка Все фильтры",
+    "title" : "И нажата кнопка Все фильтры",
+    "time" : {
+      "start" : 1627557884046,
+      "stop" : 1627557887712,
+      "duration" : 3666
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "allFiltersClick",
+      "title" : "выполнен переход на старницу Все фильтры",
+      "time" : {
+        "start" : 1627557884047,
+        "stop" : 1627557887711,
+        "duration" : 3664
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И указана минимальная цена \"5000\"",
+    "title" : "И указана минимальная цена \"5000\"",
+    "time" : {
+      "start" : 1627557887712,
+      "stop" : 1627557888008,
+      "duration" : 296
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "setMinPrice[5000]",
+      "title" : "установлена минимальная цена 5000",
+      "time" : {
+        "start" : 1627557887713,
+        "stop" : 1627557888007,
+        "duration" : 294
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И нажата кнопка Показать еще в разделе Производитель",
+    "title" : "И нажата кнопка Показать еще в разделе Производитель",
+    "time" : {
+      "start" : 1627557888008,
+      "stop" : 1627557888335,
+      "duration" : 327
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "showAllButtonClick",
+      "title" : "нажата кнопка Показать еще",
+      "time" : {
+        "start" : 1627557888008,
+        "stop" : 1627557888334,
+        "duration" : 326
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран производитель \"Beats\"",
+    "title" : "И выбран производитель \"Beats\"",
+    "time" : {
+      "start" : 1627557888335,
+      "stop" : 1627557888618,
+      "duration" : 283
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectManufactureItem[Beats]",
+      "title" : "выбран производитель Beats",
+      "time" : {
+        "start" : 1627557888335,
+        "stop" : 1627557888618,
+        "duration" : 283
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И нажата кнопка Показать предложения",
+    "title" : "И нажата кнопка Показать предложения",
+    "time" : {
+      "start" : 1627557888618,
+      "stop" : 1627557891894,
+      "duration" : 3276
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "buttonShowClick",
+      "title" : "нажата кнопка Показать предложения",
+      "time" : {
+        "start" : 1627557888619,
+        "stop" : 1627557891894,
+        "duration" : 3275
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда количество элементов на доске \"17\"",
+    "title" : "Тогда количество элементов на доске \"17\"",
+    "time" : {
+      "start" : 1627557891895,
+      "stop" : 1627557891951,
+      "duration" : 56
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkCountItemsInPage[17]",
+      "title" : "количество элементов на доске 17",
+      "time" : {
+        "start" : 1627557891895,
+        "stop" : 1627557891950,
+        "duration" : 55
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда первый элемент совпадает с поиском",
+    "title" : "Тогда первый элемент совпадает с поиском",
+    "time" : {
+      "start" : 1627557891951,
+      "stop" : 1627557893188,
+      "duration" : 1237
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 3
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "getTextFirstElement",
+      "title" : "получаем название первого товара",
+      "time" : {
+        "start" : 1627557891951,
+        "stop" : 1627557892006,
+        "duration" : 55
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillSearch[Беспроводные наушники Beats Studio 3 Wireless, blue]",
+      "title" : "вставляем Беспроводные наушники Beats Studio 3 Wireless, blue в строку поиска и осществляем поиск",
+      "time" : {
+        "start" : 1627557892006,
+        "stop" : 1627557893162,
+        "duration" : 1156
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "getTextFirstElement",
+      "title" : "получаем название первого товара",
+      "time" : {
+        "start" : 1627557893162,
+        "stop" : 1627557893188,
+        "duration" : 26
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AIF8T4O"
+  }, {
+    "name" : "feature",
+    "value" : "Поиск товаров"
+  }, {
+    "name" : "suite-name",
+    "value" : "Поиск товаров"
+  }, {
+    "name" : "thread",
+    "value" : "14492@DESKTOP-AIF8T4O.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Поиск наушников"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}
